@@ -21,5 +21,12 @@ Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
 
 ## Answer 
+Looking at each part of our code we can see that there is an outer loop, inner loop, check for an edge and add it to the list. 
+- Outer Loop: Runs $n$ times
+- Inner Loop: Runs $n$ times
+- This nested loop give us $n \times n$ because we iterate through every cell in the $n \times n$ matrix
+- Our final complexity is $O(n^{2})$
+
+The complexity depends on the number of vertices. Since we need to check every vertex in the matrix regardless of wether or not the edge exists.  
 
 
